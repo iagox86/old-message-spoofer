@@ -1,0 +1,29 @@
+ÿBattle.net Message Spoofer
+
+First you have to find the memory address that the game is using  for you.  This address changes every game, so you have to do this  every time you want to play.  Simply get into the game, then when  you want to start spoofing do the following:
+1. Press enter and type a message, like abcba, but DON'T send it!  This has to 
+be something that isn't being used elsewhere in  memory (username is bad, so 
+are many other things).  ABCBA  works good.  Remember, this is case 
+sensitive.
+2. Alt-tab to this program, and press "Find address.  Hopefully, this will find the 
+address you want.  
+3. That's it! Go to the game and play!
+
+When in the game, to spoof a message, the message MUST start  with a "/", 
+and the message must end with a "/", and NOT contain the "/"  anywhere 
+except the beginning and end.  Your name will now show up in front of a 
+message that starts and ends with "/".
+The following commands work between "/"'s
+\1 \2 \3 \4 \5 make everything after them Normal, Light Blue, Yellow, White, 
+and Grey respectively.  \n is a newline.
+
+The following are custom commands, which must go alone on a line (for the 
+ones that take parameters, don't forget the / at the end!):
+/nuke - "Nuclear launch detected"
+/cheat - "cheat enabled"
+/leave $user/ - "$user has left the game"
+/bs - "You have been backstabbed"
+/latency $user $level/ - "Player $user has set network for $level latency"
+
+Remember, the maxiumum limit normally is 79 characters, but using this 
+program it's 67 characters.
